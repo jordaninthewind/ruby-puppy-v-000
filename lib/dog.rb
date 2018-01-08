@@ -13,7 +13,7 @@ attr_accessor :name
   end
 
   def self.all
-    @@all
+    @@all.each {|i| puts i}
   end
 
 end
